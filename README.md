@@ -1,7 +1,7 @@
 # Expcamera
 Exploit Netwave and GoAhead IP Camera  
 Expcamera is a tool for exploiting vulnerable Netwave and GoAhead IP camera to get the username and password.  
-Python3  
+Environment:Linux,Python3  
 	
 **Attention:this tool is just for educational!**  
 **Please comply with local laws and regulations!**  
