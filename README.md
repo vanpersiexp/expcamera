@@ -49,7 +49,7 @@ pu.xiaorvp@gmail.com
 http://www.cnvd.org.cn/flaw/show/CNVD-2017-01037  
 http://cn.0day.today/exploit/26889  
 https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html  
-http://www.cert.org.cn/publish/main/9/2017/20170320152751379105282/20170320152751379105282\_.html  
+http://www.cert.org.cn/publish/main/9/2017/20170320152751379105282/20170320152751379105282_.html  
 
 
 # 中文版
@@ -103,6 +103,6 @@ pu.xiaorvp@gmail.com
 http://www.cnvd.org.cn/flaw/show/CNVD-2017-01037  
 http://cn.0day.today/exploit/26889  
 https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html  
-http://www.cert.org.cn/publish/main/9/2017/20170320152751379105282/20170320152751379105282\_.html  
+http://www.cert.org.cn/publish/main/9/2017/20170320152751379105282/20170320152751379105282_.html  
 
 
