@@ -1,8 +1,8 @@
 # Expcamera
 Exploit Netwave and GoAhead IP Camera  
 Expcamera is a tool for exploiting vulnerable Netwave and GoAhead IP camera to get the username and password.  
-**Attention:this tool is just for educational!**
-**Please comply with local laws and regulations!**
+**Attention:this tool is just for educational!  **
+**Please comply with local laws and regulations!  **
 
 # Installation
 	git clone https://github.com/vanpersiexp/expcamera.git  
@@ -27,10 +27,20 @@ Expcamera is a tool for exploiting vulnerable Netwave and GoAhead IP camera to g
 	  -i IP          The camera's ip and port.Example: 192.168.1.100:80  
 	  -I INPUTFILE   The camera's ip:port address file. The file's format like  
 	                 this 192.168.1.100:80 in a line.  
+# Example
+	1.Victim IP Camera's brand is Netwave.The ip is 192.168.1.100 and port is 80
+	python3 exploit_camera.py -b 1 -i 192.168.1.100:80 -v
+	2.Victim IP Camera's brand is GoAhead.The iplist.txt is given.
+	The iplist.txt show as below:
+	192.168.1.10:80
+	192.168.1.100:81
+	192.168.1.200:8080
+	python3 exploit_camera.py -b 2 -I iplist.txt -v
+	
 # Contacts
-	pu.xiaorvp@gmail.com  
+pu.xiaorvp@gmail.com  
 
 # References
-	http://www.cnvd.org.cn/flaw/show/CNVD-2017-01037  
-	http://cn.0day.today/exploit/26889  
-	https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html  
+http://www.cnvd.org.cn/flaw/show/CNVD-2017-01037  
+http://cn.0day.today/exploit/26889  
+https://pierrekim.github.io/blog/2017-03-08-camera-goahead-0day.html  
