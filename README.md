@@ -29,7 +29,7 @@ Expcamera is a tool for exploiting vulnerable Netwave and GoAhead IP camera to g
 	                 this 192.168.1.100:80 in a line.  
 # Example
 1.Victim IP Camera's brand is Netwave.The ip is 192.168.1.100 and port is 80  
-	python3 exploit_camera.py -b 1 -i 192.168.1.100:80 -v
+	python3 exploit_camera.py -b 1 -i 192.168.1.100:80 -v  
 2.Victim IP Camera's brand is GoAhead.The iplist.txt is given.   
 The iplist.txt show as below:  
 192.168.1.10:80  
