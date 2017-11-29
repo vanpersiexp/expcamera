@@ -45,7 +45,7 @@ The iplist.txt show as below:
 192.168.1.100:81  
 192.168.1.200:8080  
 
-	python3 exploit_camera.py -b 2 -I iplist.txt -v
+	python3 exploit_camera.py -b 2 -l iplist.txt -v
 	
 # Contacts
 pu.xiaorvp@gmail.com  
@@ -99,7 +99,7 @@ Netwave和GoAhead多款摄像头密码泄漏漏洞的利用工具。
 192.168.1.100:81  
 192.168.1.200:8080  
 
-	python3 exploit_camera.py -b 2 -I iplist.txt -v
+	python3 exploit_camera.py -b 2 -l iplist.txt -v
 	
 # 联系方式
 pu.xiaorvp@gmail.com  
