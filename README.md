@@ -31,7 +31,7 @@ Environment:Linux,Python3
 	  -q,--quiet     Quiet mode.  
 	  -v,--verbose   Show more informations.  
 	  -i IP,--ip IP  The camera's ip and port.Example: 192.168.1.100:80  
-	  -I INPUTFILE,--list INPUTFILE  
+	  -l INPUTFILE,--list INPUTFILE  
 		         The camera's ip:port address file. The file's format  
 			 like this 192.168.1.100:80 in a line.  
 # Example
