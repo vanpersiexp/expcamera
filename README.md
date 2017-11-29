@@ -19,16 +19,21 @@ Environment:Linux,Python3
 
 	optional arguments:  
 	  -h, --help     show this help message and exit  
-	  -b {1,2}       Choose the brand of IP Camera. 1 represents Netwave,2  
+	  -b {1,2},--brand {1,2}  
+		         Choose the brand of IP Camera. 1 represents Netwave,2  
 	                 represents GoAhead.  
-	  -o OUTPUTFILE  Output into path you input.The default path in dir /tmp  
-	  -T TIMEOUT     The default timout for netwave is 300s.  
-	  -t TASKS       Run TASKS number of connects in parallel,default is 10  
-	  -q             Quiet mode.  
-	  -v             Show more informations.  
-	  -i IP          The camera's ip and port.Example: 192.168.1.100:80  
-	  -I INPUTFILE   The camera's ip:port address file. The file's format like  
-	                 this 192.168.1.100:80 in a line.  
+	  -o OUTPUTFILE,--output OUTPUTFILE  
+		         Output into path you input.The default path in dir /tmp  
+	  -T TIMEOUT,--timeout TIMEOUT  
+		         The default timout for netwave is 300s.  
+	  -t TASKS,--task TASKS  
+	                 Run TASKS number of connects in parallel,default is 10  
+	  -q,--quiet     Quiet mode.  
+	  -v,--verbose   Show more informations.  
+	  -i IP,--ip IP  The camera's ip and port.Example: 192.168.1.100:80  
+	  -I INPUTFILE,--list INPUTFILE  
+		         The camera's ip:port address file. The file's format  
+			 like this 192.168.1.100:80 in a line.  
 # Example
 1.Victim IP Camera's brand is Netwave.The ip is 192.168.1.100 and port is 80.  
 
