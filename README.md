@@ -13,7 +13,7 @@ Environment:Linux,Python3
 	python3 exploit_camera.py -h  
 
 	usage: exploit_camera.py [-h] [-b {1,2}] [-o OUTPUTFILE] [-T TIMEOUT]  
-        	                 [-t TASKS] [-q | -v] [-i IP | -I INPUTFILE]  
+        	                 [-t TASKS] [-q | -v] [-i IP | -l INPUTFILE]  
 
 	Exploit IP Camera. Please use it just in educational purpose!  
 
@@ -72,7 +72,7 @@ Netwave和GoAhead多款摄像头密码泄漏漏洞的利用工具。
 	python3 exploit_camera.py -h  
 
 	usage: exploit_camera.py [-h] [-b {1,2}] [-o OUTPUTFILE] [-T TIMEOUT]  
-        	                 [-t TASKS] [-q | -v] [-i IP | -I INPUTFILE]  
+        	                 [-t TASKS] [-q | -v] [-i IP | -l INPUTFILE]  
 
 	Exploit IP Camera. Please use it just in educational purpose!  
 
