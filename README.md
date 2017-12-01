@@ -86,7 +86,7 @@ Netwave和GoAhead多款摄像头密码泄漏漏洞的利用工具。
 	  -q             Quiet mode.安静模式。  
 	  -v             Show more informations.显示更多信息。    
 	  -i IP          The camera's ip and port.Example: 192.168.1.100:80.摄像头ip和port形式。例如：192.168.1.100:80。    
-	  -I INPUTFILE   The camera's ip:port address file. The file's format like  
+	  -l INPUTFILE   The camera's ip:port address file. The file's format like  
 	                 this 192.168.1.100:80 in a line.摄像头ip和port文件格式。每一行都以192.168.1.100:80的形式。 
  
 # 例子
