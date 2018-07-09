@@ -60,9 +60,6 @@ The iplist.txt show as below:
 
 	python3 exploit_camera.py -b 2 -v --shodan lIzylEk4vS3k8TtAR9QreK24tG0b8xBZ
 	
-# Contacts
-pu.xiaorvp@gmail.com  
-
 # References
 http://www.cnvd.org.cn/flaw/show/CNVD-2017-01037  
 http://cn.0day.today/exploit/26889  
@@ -127,8 +124,6 @@ Netwave和GoAhead多款摄像头密码泄漏漏洞的利用工具。
 3.使用Shodan的API Key进行攻击GoAhead品牌摄像头。
 
 	python3 exploit_camera.py -b 2 -v --shodan lIzylEk4vS3k8TtAR9QreK24tG0b8xBZ
-# 联系方式
-pu.xiaorvp@gmail.com  
 
 # 参考
 http://www.cnvd.org.cn/flaw/show/CNVD-2017-01037  
